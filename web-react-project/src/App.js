@@ -5,10 +5,12 @@ import "./App.css";
 import Articles from "./components/articles";
 import Clients from "./components/clients";
 import Commandes from "./components/commades";
+import InsertArticle from "./components/insertAticle";
+import AdminHome from "./components/adminHome";
 
 class App extends Component {
   render() {
-    return <Commandes />;
+    return <Articles />;
   }
 }
 
