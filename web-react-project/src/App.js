@@ -7,6 +7,7 @@ import Clients from "./components/clients";
 import Commandes from "./components/commades";
 import InsertArticle from "./components/insertAticle";
 import AdminHome from "./components/adminHome";
+import ModalArticle from "./components/modalArticle";
 
 class App extends Component {
   render() {
