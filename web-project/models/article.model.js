@@ -1,10 +1,32 @@
+ 
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 let ArticleSchema = new Schema({
-  prix_HT: { type: Number, required: true },
-  taux_tva: Schema.Types.ObjectId,
-  qts: Number //quandtite de stock
+  identificateur: {
+    type: Number,
+    required: true
+  },
+  title: {
+    type: String,
+    required: true
+  },
+  desc: {
+    type: String,
+    required: true
+  },
+  price: { 
+    type: Number, 
+    required: true 
+  },
+  // img: {
+  //   type: String,
+  //   required: true
+  // },
+  depot: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Depot'
+  }]
 });
 
-module.exports = mongoose.model("Article", ArticleSchema);
+module.exports = mongoose.model('Article', ArticleSchema);
