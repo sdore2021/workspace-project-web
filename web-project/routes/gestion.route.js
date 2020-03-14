@@ -9,11 +9,15 @@ const livraison_controller = require("../controllers/livraison.controller");
 const depot_controller = require("../controllers/depot.controller");
 const facture_controller = require("../controllers/facture.controller");
 
-/*
- delete ne marche pas pour le  moment mais je ne sais pourquoi
-*/
+const userAdm_controller = require("../controllers/userAdm.controller");
+const auth_controller = require("../controllers/auth");
+
 // test app
 router.get("/test", taut_tva_controller.test);
+
+//all about userAdmin
+router.post("/createUserAdm", userAdm_controller.userAdm_create);
+router.post("/auth", auth_controller.userAdm_auth);
 
 // all about client
 router.post("/createClient", client_controller.client_create);
