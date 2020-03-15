@@ -2,6 +2,11 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt"); //marche avec version 12.x de nodejs
 const { UserAdm, validate } = require("../models/userAdm.model");
 
+exports.userAdm_get = async function(req, res) {
+  const userAdm = await UserAdm.findById(req.userAdm._id).select("-password");
+  res.send(userAdm);
+};
+
 exports.userAdm_create = async function(req, res, next) {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);

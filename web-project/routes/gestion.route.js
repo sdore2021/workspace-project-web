@@ -1,3 +1,4 @@
+const auth = require("../middleware/auth");
 const express = require("express");
 const router = express.Router();
 
@@ -16,8 +17,9 @@ const auth_controller = require("../controllers/auth");
 router.get("/test", taut_tva_controller.test);
 
 //all about userAdmin
-router.post("/createUserAdm", userAdm_controller.userAdm_create);
-router.post("/auth", auth_controller.userAdm_auth);
+router.get("/getUserAdm/me", auth, userAdm_controller.userAdm_get); // auth ici =>  authorization
+router.post("/createUserAdm", auth, userAdm_controller.userAdm_create);
+router.post("/auth", auth_controller.userAdm_auth); // auth ici => authentification
 
 // all about client
 router.post("/createClient", client_controller.client_create);
