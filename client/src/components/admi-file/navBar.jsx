@@ -13,19 +13,19 @@ const NavBar = () => {
             <Link to="/">Admin</Link>
           </li>
           <li>
-            <Link to="/#">Article</Link>
+            <Link to="/">Article</Link>
           </li>
           <li>
-            <Link to="/#">Commande</Link>
+            <Link to="/">Commande</Link>
           </li>
           <li>
-            <Link to="/#">Client</Link>
+            <Link to="/">Client</Link>
           </li>
           <li>
-            <Link to="/#">Representant</Link>
+            <Link to="/">Representant</Link>
           </li>
           <li>
-            <Link to="/#">Facture</Link>
+            <Link to="/">Create new Admin</Link>
           </li>
         </ul>
       </div>

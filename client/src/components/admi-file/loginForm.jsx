@@ -61,7 +61,7 @@ class LoginForm extends Component {
         // all browsers have this database name localStorage
         const jwt = res.data;
         localStorage.setItem("token", jwt);
-        this.props.history.push("/"); // permet de naviguer
+        this.props.history.push("/AdminHome"); // permet de naviguer
       })
       .catch(ex => {
         if (ex.response && ex.response.status === 400) {
