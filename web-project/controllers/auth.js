@@ -19,7 +19,7 @@ exports.userAdm_auth = async function(req, res, next) {
   if (!validPassword) return res.status(400).send("Invalid email or password.");
 
   const token = userAdm.generateAuthToken();
-  res.send(token);
+  res.header("x-header-token", token).send(token);
 };
 
 function validate(req) {
