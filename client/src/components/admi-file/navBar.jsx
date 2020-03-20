@@ -2,13 +2,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
-    <nav className="light-blue lighten-1" role="navigation">
-      <div className="nav-wrapper container">
-        <Link to="/" className="brand-logo">
+    <nav className="col-md-2 light-blue sidebar">
+      <div className="sidebar-sticky">
+        <ul className="nav flex-column">
+          <Link to="/CreateNewAdmin">Create new Admin</Link>
+          <Link to="/LogoutAdmin">Logout</Link>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default NavBar;
+
+/*
+<!--nav classNameName="light-blue lighten-1" role="navigation">
+      <div classNameName="nav-wrapper container">
+        <Link to="/" classNameName="brand-logo">
           Admin
         </Link>
 
-        <ul className="right">
+        <ul classNameName="right">
           <li>
             <Link to="/">Admin</Link>
           </li>
@@ -25,12 +39,9 @@ const NavBar = () => {
             <Link to="/">Representant</Link>
           </li>
           <li>
-            <Link to="/">Create new Admin</Link>
+            <Link to="/CreateNewAdmin">Create new Admin</Link>
           </li>
         </ul>
       </div>
-    </nav>
-  );
-};
-
-export default NavBar;
+    </nav -->
+*/

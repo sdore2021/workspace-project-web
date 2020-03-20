@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Joi from "joi-browser";
+
+//axios.defaults.headers.common["x-auth-token"] = auth.getJwt();
 class LoginForm extends Component {
   state = {
     account: { username: "", password: "" },
@@ -61,7 +63,8 @@ class LoginForm extends Component {
         // all browsers have this database name localStorage
         const jwt = res.data;
         localStorage.setItem("token", jwt);
-        this.props.history.push("/AdminHome"); // permet de naviguer
+        //this.props.history.push("/AdminHome"); // permet de naviguer
+        window.location = "/AdminHome";
       })
       .catch(ex => {
         if (ex.response && ex.response.status === 400) {

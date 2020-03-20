@@ -22,7 +22,7 @@ const NavBar = () => {
           </li>
 
           <li>
-            <Link to="/Admin">AdminPage</Link>
+            <Link to="/LoginAdmin">AdminPage</Link>
           </li>
         </ul>
       </div>
