@@ -75,6 +75,22 @@ class LoginForm extends Component {
       });
   };
 
+  async componentDidMount() {
+    // adminsteur par defaut ajouter automatiquement sans le postman
+    await axios
+      .post("http://localhost:4000/gestions/createUserAdm", {
+        name: "samouka",
+        email: "samouka.dore@insa-cvl.fr",
+        password: "azerty"
+      })
+      .then(res => {
+        console.log("create default admin is succesful");
+      })
+      .catch(ex => {
+        console.log(ex);
+      });
+  }
+
   render() {
     return (
       <main className="container">
