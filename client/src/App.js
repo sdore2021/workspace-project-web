@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Navbar />
+          <Navbar user={user} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/cart" component={Cart} />
@@ -47,6 +47,8 @@ class App extends Component {
 export default App;
 
 /**
+ * 
+ * <Route path="/AdminHome" component={AdminHome} />
  * <Route
               path="/AdminHome"
               render={props => {

@@ -60,7 +60,6 @@ class LoginForm extends Component {
       })
       .then(res => {
         console.log("authentification reussi");
-        global.loginAdmin = true;
         // all browsers have this database name localStorage
         const jwt = res.data;
         localStorage.setItem("token", jwt);
@@ -76,7 +75,7 @@ class LoginForm extends Component {
       });
   };
 
-  async componentDidMount() {
+  /*async componentDidMount() {
     // adminsteur par defaut ajouter automatiquement sans le postman
     // c'est pour facilité le test que j'ai ajouter adminstrateur par defaut
     // mais normalement non
@@ -90,7 +89,7 @@ class LoginForm extends Component {
         console.log("create default admin is succesful");
       })
       .catch({});
-  }
+  }*/
 
   render() {
     return (
