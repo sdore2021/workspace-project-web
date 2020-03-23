@@ -29,7 +29,7 @@ class AdminHome extends Component {
               <h1>Wellcome to administrator page</h1>
               {this.state.user && <h1>M. {this.state.user.name} bonjour</h1>}
               <CardA name={"Client"} count={10} link={"/"} />
-              <CardA name={"Article"} count={100} link={"/"} />
+              <CardA name={"Article"} count={100} link={"/Article"} />
               <CardA name={"Commande"} count={200} link={"/"} />
               <CardA name={"Depot"} count={30} link={"/"} />
               <CardA name={"Facture"} count={50} link={"/"} />
