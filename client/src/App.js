@@ -8,6 +8,7 @@ import LoginForm from "./components/admi-file/loginForm";
 import AdminHome from "./components/admi-file/adminHome";
 import RegisterAdim from "./components/admi-file/registerAdmin";
 import LogoutAdmin from "./components/admi-file/logoutAdmin";
+import CardA from "./components/admi-file/cards";
 
 class App extends Component {
   state = {};
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path="/LogoutAdmin" component={LogoutAdmin} />
             <Route path="/AdminHome" component={AdminHome} />
             <Route path="/CreateNewAdmin" component={RegisterAdim} />
+            <Route path="/card" component={CardA} />
           </Switch>
         </div>
       </BrowserRouter>

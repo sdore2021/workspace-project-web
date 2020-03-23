@@ -60,6 +60,7 @@ class LoginForm extends Component {
       })
       .then(res => {
         console.log("authentification reussi");
+        global.loginAdmin = true;
         // all browsers have this database name localStorage
         const jwt = res.data;
         localStorage.setItem("token", jwt);
@@ -77,6 +78,8 @@ class LoginForm extends Component {
 
   async componentDidMount() {
     // adminsteur par defaut ajouter automatiquement sans le postman
+    // c'est pour facilité le test que j'ai ajouter adminstrateur par defaut
+    // mais normalement non
     await axios
       .post("http://localhost:4000/gestions/createUserAdm", {
         name: "samouka",
@@ -86,9 +89,7 @@ class LoginForm extends Component {
       .then(res => {
         console.log("create default admin is succesful");
       })
-      .catch(ex => {
-        console.log(ex);
-      });
+      .catch({});
   }
 
   render() {
