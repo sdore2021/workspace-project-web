@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { auth } from "./auth";
 import { Route } from "react-router-dom";
 
 import InsertArticle from "./insertArticle";
@@ -9,6 +10,8 @@ class Articles extends Component {
     articles: []
   };
   async componentDidMount() {
+    auth();
+
     axios.get("http://localhost:4000/gestions/getArticle").then(res => {
       const articles = res.data;
       this.setState({ articles });

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const NavBar = () => {
+const NavBar = ({ user }) => {
   return (
     <nav className="light-blue lighten-1" role="navigation">
       <div className="nav-wrapper container">
@@ -9,21 +9,26 @@ const NavBar = () => {
         </Link>
 
         <ul className="right">
-          <li>
-            <Link to="/">Shop</Link>
-          </li>
-          <li>
-            <Link to="/cart">My cart</Link>
-          </li>
-          <li>
-            <Link to="/cart">
-              <i className="material-icons">shopping_cart</i>
-            </Link>
-          </li>
+          {!user && (
+            <React.Fragment>
+              <li>
+                <Link to="/">Shop</Link>
+              </li>
 
+              <li>
+                <Link to="/cart">My cart</Link>
+              </li>
+              <li>
+                <Link to="/cart">
+                  <i className="material-icons">shopping_cart</i>
+                </Link>
+              </li>
+            </React.Fragment>
+          )}
           <li>
             <Link to="/LoginAdmin">AdminPage</Link>
           </li>
+          {user && <React.Fragment>{user.name}</React.Fragment>}
         </ul>
       </div>
     </nav>
