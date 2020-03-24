@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Route } from "react-router-dom";
-/** <Route path="/add" component={InsertArticle} /> */
+
+import InsertArticle from "./insertArticle";
+
 class Articles extends Component {
   state = {
     articles: []
@@ -26,37 +28,40 @@ class Articles extends Component {
 
   render() {
     return (
+      <div>
+      <Route path="/add" component={InsertArticle} />
       <table className="table">
         <thead>
           <tr>
-            <th>numero d'article</th>
+            <th>Numéro d'article</th>
+            <th>Nom de l'article</th>
+            <th>Description</th>
             <th>Prix</th>
-            <th>Quantite</th>
-            <th>Taux de TVA</th>
             <th>
-              <button className="btn btn-primary btn-sm">Add</button>
+              <a href="http://localhost:3000/add" className="btn btn-primary btn-sm">Ajouter</a>
             </th>
           </tr>
         </thead>
         <tbody>
           {this.state.articles.map(article => (
             <tr>
-              <th>{article._id}</th>
-              <th>{article.prix_HT}</th>
-              <th>{article.qts}</th>
-              <th>{article.taux_tva}</th>
+              <th>{article.identificateur}</th>
+              <th>{article.title}</th>
+              <th>{article.desc}</th>
+              <th>{article.price}</th>
               <th>
                 <button
                   onClick={() => this.handleDelete(article)}
                   className="btn btn-danger btn-sm"
                 >
-                  Delete
+                  Supprimer
                 </button>
               </th>
             </tr>
           ))}
         </tbody>
       </table>
+      </div>
     );
   }
 }

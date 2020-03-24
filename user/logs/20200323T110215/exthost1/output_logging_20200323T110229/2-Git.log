@@ -1,0 +1,303 @@
+Looking for git in: git
+Using git 2.11.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /root/Documents/workspace-project-web
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :client/src/components/Cart.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/Cart.js
+> git cat-file -s 57a25a8cb73c499e8cb45e37e7f072bb9b16eea8
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-project-web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/registerAdmin.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/registerAdmin.jsx
+> git cat-file -s c164a803785d6ce2ff04bd882aba8713b659a703
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/insertAticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertAticle.jsx
+> git cat-file -s f192327c81499b0acb6417f5de73f2b0e0f3360c
+> git show :client/src/components/admi-file/loginForm.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/loginForm.jsx
+> git cat-file -s ac2302d77482dfd0e259d6d0bd3cbf83dfa2bf26
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :web-project/routes/index.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/index.js
+> git cat-file -s ecca96a56b309a315ddf6399155fd2f953031d3b
+> git show :web-project/routes/users.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/users.js
+> git cat-file -s 623e4302bee32ccc080d1c83ee2e55a426c9bac8
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/loginForm.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/loginForm.jsx
+> git cat-file -s ac2302d77482dfd0e259d6d0bd3cbf83dfa2bf26
+> git show :client/src/components/admi-file/insertAticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertAticle.jsx
+> git cat-file -s f192327c81499b0acb6417f5de73f2b0e0f3360c
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git show :client/src/components/admi-file/loginForm.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/loginForm.jsx
+> git cat-file -s ac2302d77482dfd0e259d6d0bd3cbf83dfa2bf26
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git check-ignore -v -z --stdin
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/loginForm.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/loginForm.jsx
+> git cat-file -s ac2302d77482dfd0e259d6d0bd3cbf83dfa2bf26
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/cards.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/cards.jsx
+> git cat-file -s 1a9bc8eb70e9efe3c28c363c3784138b22c417cc
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 9e3a4681b6239ce1d9c78c72a9a71b2b462834c7
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/cards.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/cards.jsx
+> git cat-file -s 1a9bc8eb70e9efe3c28c363c3784138b22c417cc
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git check-ignore -v -z --stdin
+> git show :web-project/controllers/article.controller.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/controllers/article.controller.js
+> git cat-file -s c7110d1521c8aca3568cf40d4c8af0e3fa3f5908
+> git show :client/src/components/admi-file/loginForm.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/loginForm.jsx
+> git cat-file -s ac2302d77482dfd0e259d6d0bd3cbf83dfa2bf26
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s aa960fab0f09b0afd4eedfb3c9465f9dd567ff72
