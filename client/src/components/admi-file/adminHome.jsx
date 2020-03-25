@@ -33,11 +33,11 @@ class AdminHome extends Component {
             <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
               <h1>Welcome to administrator page</h1>
               {this.state.user && <h1>M. {this.state.user.name} bonjour</h1>}
-              <CardA name={"Client"} count={client} link={"/Client"} />
-              <CardA name={"Article"} count={article} link={"/Article"} />
-              <CardA name={"Commande"} count={commande} link={"/Commande"} />
-              <CardA name={"Depot"} count={depot} link={"/Depot"} />
-              <CardA name={"Facture"} count={50} link={"/"} />
+              <CardA name={"Clients"} count={client} link={"/Client"} />
+              <CardA name={"Articles"} count={article} link={"/Article"} />
+              <CardA name={"Commandes"} count={commande} link={"/Commande"} />
+              <CardA name={"Dépôts"} count={depot} link={"/Depot"} />
+              <CardA name={"Factures"} count={50} link={"/Facture"} />
               <CardA name={"Taux"} count={20} link={"/"} />
               <CardA name={"Rep"} count={40} link={"/"} />
             </main>

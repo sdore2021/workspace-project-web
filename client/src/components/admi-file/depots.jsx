@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const Article = require("../../../web-project/models/article.model");
-
-class Commandes extends Component {
+class Depots extends Component {
   state = {
     depots: []
   };
@@ -38,4 +36,4 @@ class Commandes extends Component {
   }
 }
 
-export default Commandes;
+export default Depots;

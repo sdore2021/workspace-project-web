@@ -13,7 +13,9 @@ import CardA from "./components/admi-file/cards";
 import Articles from "./components/admi-file/articles";
 import Commandes from "./components/admi-file/commandes";
 import Clients from "./components/admi-file/clients";
-import Depot from "./components/admi-file/depots.jsx";
+import Depots from "./components/admi-file/depots";
+import Factures from "./components/admi-file/factures";
+import Livraisons from "./components/admi-file/livraisons";
 
 class App extends Component {
   state = {};
@@ -43,7 +45,9 @@ class App extends Component {
             <Route path="/Article" component={Articles} />
             <Route path="/Commande" component={Commandes} />
             <Route path="/Client" component={Clients} />
-            <Route path="/Depot" component={Depot} />
+            <Route path="/Depot" component={Depots} />
+            <Route path="/Facture" component={Factures} />
+            <Route path="/Livraison" component={Livraisons} />
           </Switch>
         </div>
       </BrowserRouter>

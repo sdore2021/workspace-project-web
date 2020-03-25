@@ -573,3 +573,119 @@ Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-proje
 > git show :client/src/App.js
 > git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
 > git cat-file -s 5c4bb886ec3bce7c9f4945399a55876572a37972
+> git status -z -u
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 20ca388124bfdb3ad3d07df74897f42cd75643e2
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git cat-file -s 11974ce2d59c2d8ecd8ba0692621a322ab54ea89
+> git show :client/src/components/admi-file/commandes.jsx
+> git show :web-project/routes/gestion.route.js
+> git show :client/src/App.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 11974ce2d59c2d8ecd8ba0692621a322ab54ea89
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s 20ca388124bfdb3ad3d07df74897f42cd75643e2
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git show :web-project/models/client.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/client.model.js
+> git cat-file -s 4ac722785a547e3569b08da82214a310907e83d0
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 11974ce2d59c2d8ecd8ba0692621a322ab54ea89
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 11974ce2d59c2d8ecd8ba0692621a322ab54ea89
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :web-project/models/facture.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/facture.model.js
+> git cat-file -s 23ce8ce2be6d11498a07c512cd230f3ab73f74a3
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git check-ignore -v -z --stdin
+> git show :web-project/models/facture.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/facture.model.js
+> git cat-file -s 23ce8ce2be6d11498a07c512cd230f3ab73f74a3
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git show :web-project/models/livraison.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/livraison.model.js
+> git cat-file -s 17276c8607ebc4e8046dc7c968fc61db53da901f
+> git show :web-project/models/gestion.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/gestion.model.js
+> git cat-file -s adb8ab9ab70d4d60009475b5029e8e2cf92f5943
+> git show :web-project/models/livraison.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/livraison.model.js
+> git cat-file -s 17276c8607ebc4e8046dc7c968fc61db53da901f
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s 8e838522be18aae5ded4ad1e7d43863bdbfcfb08
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 11974ce2d59c2d8ecd8ba0692621a322ab54ea89
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git cat-file -s 3c5651069dbb4cfd2f50ac2bbc04b95fc5f79b11
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 8d777b6cf935b22ebc52b618e387c8a7dda6a901
+> git show :client/src/components/admi-file/livraisons.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/livraisons.jsx
+> git show :client/src/components/admi-file/factures.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/factures.jsx
