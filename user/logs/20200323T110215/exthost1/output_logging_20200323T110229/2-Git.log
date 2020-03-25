@@ -349,3 +349,227 @@ Error: ENOENT: no such file or directory, watch '/root/Documents/workspace-proje
 > git rev-list --left-right master...refs/remotes/origin/master
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
+> git status -z -u
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s 6e0c275754a5618ac4810adb95c499b2d241b62a
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :client/src/components/admi-file/adminHome.jsx
+> git show :web-project/models/article.model.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s d42936fccd344573e82fc91ef13304923db8dfad
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s d42936fccd344573e82fc91ef13304923db8dfad
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s d42936fccd344573e82fc91ef13304923db8dfad
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :client/src/components/admi-file/clients.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/clients.jsx
+> git cat-file -s 418f4b5603531d5fd22b7ebb4588c77da5204704
+> git show :web-project/models/client.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/client.model.js
+> git cat-file -s 4ac722785a547e3569b08da82214a310907e83d0
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :client/src/components/admi-file/clients.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/clients.jsx
+> git cat-file -s 418f4b5603531d5fd22b7ebb4588c77da5204704
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :web-project/controllers/article.controller.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/controllers/article.controller.js
+> git cat-file -s c7110d1521c8aca3568cf40d4c8af0e3fa3f5908
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :web-project/controllers/article.controller.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/controllers/article.controller.js
+> git cat-file -s c7110d1521c8aca3568cf40d4c8af0e3fa3f5908
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :web-project/models/client.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/client.model.js
+> git cat-file -s 4ac722785a547e3569b08da82214a310907e83d0
+> git show :web-project/models/client.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/client.model.js
+> git cat-file -s 4ac722785a547e3569b08da82214a310907e83d0
+> git show :web-project/models/article.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/article.model.js
+> git cat-file -s d16029d43034e4b60fa160c280d3e0343e8f4e4a
+> git show :web-project/models/client.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/client.model.js
+> git cat-file -s 4ac722785a547e3569b08da82214a310907e83d0
+> git show :client/src/components/admi-file/clients.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/clients.jsx
+> git cat-file -s 418f4b5603531d5fd22b7ebb4588c77da5204704
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 6e0c275754a5618ac4810adb95c499b2d241b62a
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :client/src/components/Home.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/Home.js
+> git cat-file -s 060b4b98ccc60948d53c6b16c4645a12affdd27a
+> git show :client/src/components/Checkout.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/Checkout.js
+> git cat-file -s 7ad9b8872986d6918b18cfdd00a93cdc8dc34958
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :client/src/actions/action-types/cart-actions.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/actions/action-types/cart-actions.js
+> git cat-file -s ffc5b39de9ae0b566b3ed0bd66cd5f52cce03a9e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :web-project/routes/users.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/users.js
+> git cat-file -s 623e4302bee32ccc080d1c83ee2e55a426c9bac8
+> git show :web-project/routes/index.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/index.js
+> git cat-file -s ecca96a56b309a315ddf6399155fd2f953031d3b
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 5c4bb886ec3bce7c9f4945399a55876572a37972
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 6e0c275754a5618ac4810adb95c499b2d241b62a
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 6e0c275754a5618ac4810adb95c499b2d241b62a
+> git show :web-project/controllers/depot.controller.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/controllers/depot.controller.js
+> git cat-file -s e011e00bd5bc449b9ac1b3f3cc056c82d461954c
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :client/src/components/admi-file/insertArticle.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/insertArticle.jsx
+> git cat-file -s 59b273079a529b3842489fd6958a41d9c7f72bee
+> git show :client/src/components/admi-file/articles.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/articles.jsx
+> git cat-file -s d42936fccd344573e82fc91ef13304923db8dfad
+> git show :client/src/components/admi-file/adminHome.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/adminHome.jsx
+> git cat-file -s 6e0c275754a5618ac4810adb95c499b2d241b62a
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 5c4bb886ec3bce7c9f4945399a55876572a37972
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git check-ignore -v -z --stdin
+> git show :client/src/components/admi-file/commandes.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/commandes.jsx
+> git cat-file -s f731e7e186feb9ec86e5cec109496bb5da8853b2
+> git show :web-project/routes/gestion.route.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/routes/gestion.route.js
+> git cat-file -s acc4d65bfc20368dae752892c743ec4ebc10298c
+> git show :web-project/models/commande.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/commande.model.js
+> git cat-file -s 53c3bd5a399fb371a710e0312c0422e396f972b6
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 5c4bb886ec3bce7c9f4945399a55876572a37972
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git show :web-project/models/depot.model.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/web-project/models/depot.model.js
+> git cat-file -s 1a7b5156af282ed6abce9b24dea53c3db015d8ac
+> git show :client/src/components/admi-file/depots.jsx
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/components/admi-file/depots.jsx
+> git show :client/src/App.js
+> git ls-files --stage -- /root/Documents/workspace-project-web/client/src/App.js
+> git cat-file -s 5c4bb886ec3bce7c9f4945399a55876572a37972

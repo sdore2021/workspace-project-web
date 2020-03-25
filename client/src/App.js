@@ -9,7 +9,11 @@ import AdminHome from "./components/admi-file/adminHome";
 import RegisterAdim from "./components/admi-file/registerAdmin";
 import LogoutAdmin from "./components/admi-file/logoutAdmin";
 import CardA from "./components/admi-file/cards";
+
 import Articles from "./components/admi-file/articles";
+import Commandes from "./components/admi-file/commandes";
+import Clients from "./components/admi-file/clients";
+import Depot from "./components/admi-file/depots.jsx";
 
 class App extends Component {
   state = {};
@@ -37,6 +41,9 @@ class App extends Component {
             <Route path="/CreateNewAdmin" component={RegisterAdim} />
             <Route path="/card" component={CardA} />
             <Route path="/Article" component={Articles} />
+            <Route path="/Commande" component={Commandes} />
+            <Route path="/Client" component={Clients} />
+            <Route path="/Depot" component={Depot} />
           </Switch>
         </div>
       </BrowserRouter>

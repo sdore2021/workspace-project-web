@@ -41,7 +41,7 @@ class Articles extends Component {
             <th>Description</th>
             <th>Prix</th>
             <th>
-              <a href="http://localhost:3000/add" className="btn btn-primary btn-sm">Ajouter</a>
+              <a href="http://localhost:3000/addArticle" className="btn btn-primary btn-sm">Ajouter</a>
             </th>
           </tr>
         </thead>
@@ -64,6 +64,7 @@ class Articles extends Component {
           ))}
         </tbody>
       </table>
+      <InsertArticle/>
       </div>
     );
   }

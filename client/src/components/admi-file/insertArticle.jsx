@@ -5,14 +5,10 @@ import axios from "axios";
  */
 class InsertArticle extends Component {
   state = {
-    identificateur: 0,
+    identificateur: "",
     title: "",
     desc: "",
     price: 0.0
-  };
-
-  handleIdentificateur = event => {
-    this.setState({ identificateur: parseInt(event.target.value) });
   };
 
   handleTitle = event => {
@@ -56,37 +52,19 @@ class InsertArticle extends Component {
   render() {
     return (
       <React.Fragment>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} style={styles.form}>
           
           <div className="form-group row">
             <label className="col-sm-2 col-form-label col-form-label-sm">
-              Identificateur
-            </label>
-            <div className="col-sm-10">
-              <input
-                type="number"
-                min="1"
-                value="1"
-                name="prix_HT"
-                className="form-control form-control-sm"
-                id="colFormLabelSm"
-                placeholder="col-form-label-sm"
-                onChange={this.handlePrix_HT}
-              />
-            </div>
-          </div>
-          
-          <div className="form-group row">
-            <label className="col-sm-2 col-form-label col-form-label-sm">
-              Nom
+              Nom de l'article
             </label>
             <div className="col-sm-10">
               <input
                 type="text"
-                name="prix_HT"
+                placeholder="Nom de l'article"
+                name="title"
                 className="form-control form-control-sm"
                 id="colFormLabelSm"
-                placeholder="col-form-label-sm"
                 onChange={this.handlePrix_HT}
               />
             </div>
@@ -99,29 +77,26 @@ class InsertArticle extends Component {
             <div className="col-sm-10">
               <input
                 type="text"
-                name="prix_HT"
+                placeholder="Description"
+                name="desc"
                 className="form-control form-control-sm"
                 id="colFormLabelSm"
-                placeholder="col-form-label-sm"
                 onChange={this.handlePrix_HT}
               />
             </div>
           </div>
 
           <div className="form-group row">
-            <label className="col-sm-2 col-form-label col-form-label-sm">
+            <label className="col-sm-2 col-form-label">
               Prix Hors Taxe
             </label>
             <div className="col-sm-10">
               <input
-                type="number"
-                min="0.1"
-                step="0.1"
-                value="1.0"
+                type="text"
+                placeholder="Prix Hors Taxe"
                 name="prix_HT"
-                className="form-control form-control-sm"
+                className="form-control"
                 id="colFormLabelSm"
-                placeholder="col-form-label-sm"
                 onChange={this.handlePrix_HT}
               />
             </div>
@@ -133,6 +108,14 @@ class InsertArticle extends Component {
         </form>
       </React.Fragment>
     );
+  }
+}
+
+const styles = {
+  form : {
+    maxWidth: 800,
+    margin: 20,
+    padding: 10
   }
 }
 

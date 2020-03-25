@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+
 class Commandes extends Component {
   state = {
     commandes: []
@@ -10,22 +11,33 @@ class Commandes extends Component {
       this.setState({ commandes });
     });
   }
+
+  totalCost(commande) {
+    /* A FINIR */
+    let sum=0;
+    return sum;
+  }
+
   render() {
     return (
       <table className="table">
         <thead>
           <tr>
-            <th>numero commande</th>
             <th>Date commande</th>
+            <th>ID du client</th>
             <th>Articles</th>
+            <th>Coût total</th>
           </tr>
         </thead>
         <tbody>
           {this.state.commandes.map(commande => (
             <tr>
-              <th>{commande._id}</th>
-              <th>{commande.date_commande}</th>
-              <th>{commande.articles.length}</th>
+              <td>{commande.date_commande}</td>
+              <td>{commande.clientId}</td>
+              <td>{commande.articles.map( a => {
+                <div>{a.title} (x{a.quantiteOrdered})</div>
+              })}</td>
+              <td>{this.totalCost(commande)}</td>
             </tr>
           ))}
         </tbody>

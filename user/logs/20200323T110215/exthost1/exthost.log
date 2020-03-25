@@ -25,3 +25,6 @@
 [2020-03-23 16:46:45.791] [exthost] [error] Error: DisposableStore is missing...
 	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
 	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-25 14:15:17.018] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-03-25 14:17:02.842] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-03-25 14:35:06.941] [exthost] [warning] INVALID text edit -> must have at least a label
