@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { auth } from "./auth";
+<<<<<<< HEAD
 import AddArticle from "./AddArticle";
+=======
+import { Route } from "react-router-dom";
+
+import InsertArticle from "./insertArticle";
+>>>>>>> c9b4618282b0fc8e4689ee03719e4428ce3a45a2
 
 class Articles extends Component {
   state = {
@@ -32,6 +38,7 @@ class Articles extends Component {
     let addModalClose = () => this.setState({ addModalShow: false });
     return (
       <div>
+<<<<<<< HEAD
         <table className="table">
           <thead>
             <tr>
@@ -39,11 +46,34 @@ class Articles extends Component {
               <th>Title</th>
               <th>Price</th>
               <th>ID_Depot</th>
+=======
+      <Route path="/add" component={InsertArticle} />
+      <table className="table">
+        <thead>
+          <tr>
+            <th>Numéro d'article</th>
+            <th>Nom de l'article</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th>
+              <a href="http://localhost:3000/addArticle" className="btn btn-primary btn-sm">Ajouter</a>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {this.state.articles.map(article => (
+            <tr>
+              <th>{article.identificateur}</th>
+              <th>{article.title}</th>
+              <th>{article.desc}</th>
+              <th>{article.price}</th>
+>>>>>>> c9b4618282b0fc8e4689ee03719e4428ce3a45a2
               <th>
                 <button
                   onClick={() => this.setState({ addModalShow: true })}
                   className="btn btn-primary btn-sm"
                 >
+<<<<<<< HEAD
                   Ajoute
                 </button>
               </th>
@@ -69,6 +99,16 @@ class Articles extends Component {
           </tbody>
         </table>
         <AddArticle show={this.state.addModalShow} onHide={addModalClose} />
+=======
+                  Supprimer
+                </button>
+              </th>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <InsertArticle/>
+>>>>>>> c9b4618282b0fc8e4689ee03719e4428ce3a45a2
       </div>
     );
   }

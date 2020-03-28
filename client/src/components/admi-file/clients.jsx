@@ -17,19 +17,21 @@ class Clients extends Component {
       <table className="table">
         <thead>
           <tr>
-            <th>numero client</th>
-            <th>Nom client</th>
-            <th>Taux Remise</th>
-            <th>les commandes</th>
+            <th>Nom du client</th>
+            <th>Taux de Remise</th>
+            <th>Commandes passées</th>
           </tr>
         </thead>
         <tbody>
           {this.state.clients.map(client => (
             <tr>
-              <th>{client._id}</th>
-              <th>{client.nom_client}</th>
-              <th>{client.taux_remise}</th>
-              <th>{client.commande.length}</th>
+              <td>{client.nom_client}</td>
+              <td>{client.taux_remise}</td>
+              <td>{client.commande.map( c => {
+                <div>{c.articles.map( a => {
+                  <div>{a.articleId} (x{a.quantiteOrdered})</div>
+                })}</div>
+              })}</td>
             </tr>
           ))}
         </tbody>
