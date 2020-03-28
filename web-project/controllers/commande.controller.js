@@ -2,21 +2,32 @@ const Commande = require("../models/commande.model");
 
 exports.client_cre_add_commande = function(req, res, next) {
   let commande = new Commande({
-    articles: req.body._id_article
+    clientId: req.body._id_client,
+    articles: {
+      articleId: req.body._id_article,
+      quantiteOrdered: req.body.quantiteOrdered
+    }
   });
 
   commande.save(function(err) {
     if (err) {
       return next(err);
     }
-    res.send("create command succcessfull");
+    res.send(commande);
   });
 };
 
 exports.article_add_commande = function(req, res, next) {
   Commande.findByIdAndUpdate(
     req.params.id,
-    { $push: { articles: req.body._id_article } },
+    {
+      $push: {
+        articles: {
+          articleId: req.body._id_article,
+          quantiteOrdered: req.body.quantiteOrdered
+        }
+      }
+    },
     function(err, post) {
       if (err) res.send(err);
       res.json(post);

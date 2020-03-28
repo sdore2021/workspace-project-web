@@ -4,6 +4,7 @@ export function auth() {
   try {
     const jwt = localStorage.getItem("token");
     user = jwtDecode(jwt);
+    return user;
   } catch (error) {
     if (!user) window.location = "/LoginAdmin";
   }

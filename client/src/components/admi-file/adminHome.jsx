@@ -7,6 +7,7 @@ import { auth } from "./auth";
 
 class AdminHome extends Component {
   state = {
+    user: "",
     article: "0",
     client: "0",
     commande: "0",
@@ -15,7 +16,7 @@ class AdminHome extends Component {
 
   componentDidMount() {
     // ineficace mais pour le moment c bon je ferai apres dans app.js
-    auth();
+    this.setState({ user: auth() });
 
     axios.get("http://localhost:4000/gestions/getArticle").then(res => {
       const article = res.data.length;
@@ -24,15 +25,20 @@ class AdminHome extends Component {
   }
 
   render() {
-    const { article, commande, depot, client } = this.state;
+    const { article, commande, depot, client, user } = this.state;
     return (
       <React.Fragment>
         <div className="container-fluid">
           <div className="row">
             <NavBar />
             <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
-              <h1>Wellcome to administrator page</h1>
-              {this.state.user && <h1>M. {this.state.user.name} bonjour</h1>}
+              <h1
+                style={{
+                  padding: "30px 10px"
+                }}
+              >
+                Wellcome to administrator page (M. ou Mme) {user && user.name}
+              </h1>
               <CardA name={"Client"} count={client} link={"/"} />
               <CardA name={"Article"} count={article} link={"/Article"} />
               <CardA name={"Commande"} count={commande} link={"/"} />

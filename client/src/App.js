@@ -35,7 +35,6 @@ class App extends Component {
             <Route path="/LogoutAdmin" component={LogoutAdmin} />
             <Route path="/AdminHome" component={AdminHome} />
             <Route path="/CreateNewAdmin" component={RegisterAdim} />
-            <Route path="/card" component={CardA} />
             <Route path="/Article" component={Articles} />
           </Switch>
         </div>

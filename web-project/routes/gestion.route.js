@@ -26,26 +26,26 @@ router.post("/createClient", client_controller.client_create);
 router.put("/clientAddCommand/:id", client_controller.client_add_commade);
 router.get("/getClient", client_controller.getClientAll);
 router.get("/getClient/:id", client_controller.getClient);
-router.delete("deleteClient/:id", client_controller.deleteClient);
+router.delete("/deleteClient/:id", client_controller.deleteClient);
 
 // all about command
 router.post("/createCommande", commande_controller.client_cre_add_commande);
 router.put("/ArticleAddCommand/:id", commande_controller.article_add_commande);
 router.get("/getCommande", commande_controller.getCommandeAll);
 router.get("/getCommande/:id", commande_controller.getCommande);
-router.delete("deleteCommande/:id", commande_controller.deleteCommande);
+router.delete("/deleteCommande/:id", commande_controller.deleteCommande);
 
 // all about article
 router.post("/createArticle", article_controller.article_create);
 router.get("/getArticle", article_controller.getArticleAll);
 router.get("/getArticle/:id", article_controller.getArticle);
-router.delete("deleteArticle/:id", article_controller.deleteArticle);
+router.delete("/deleteArticle/:id", article_controller.deleteArticle);
 
 // all about taux_tva
 router.post("/createTaux", taut_tva_controller.taux_create);
 router.get("/getTaux", taut_tva_controller.getTauxAll);
 router.get("/getTaux/:id", taut_tva_controller.getTaux);
-router.delete("deleteTaux/:id", taut_tva_controller.deleteTaux);
+router.delete("/deleteTaux/:id", taut_tva_controller.deleteTaux);
 
 //all about livraison
 router.post("/createLivraison", livraison_controller.livraison_create);
@@ -58,6 +58,8 @@ router.delete("deleteLivraison/:id", livraison_controller.deleteLivraison);
 // all about depot
 router.post("/createDepot", depot_controller.create_depot);
 router.put("/depotAddArticle/:id", depot_controller.article_add_depot);
+router.get("/getDepot", depot_controller.getDepotAll);
+
 /*
 router.get("/getDepot", depot_controller.getDepotAll);
 router.get("/getDepot/:id", depot_controller.getDepot);

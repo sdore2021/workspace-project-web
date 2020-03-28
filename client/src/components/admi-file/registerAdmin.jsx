@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Joi from "joi-browser";
+import { auth } from "./auth";
 class RegisterAdim extends Component {
   state = {
     account: { username: "", password: "", name: "" },
@@ -70,6 +71,10 @@ class RegisterAdim extends Component {
         console.log(ex.response);
       });
   };
+
+  componentDidMount() {
+    auth();
+  }
 
   render() {
     return (

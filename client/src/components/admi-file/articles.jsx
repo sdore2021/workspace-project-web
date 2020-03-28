@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { auth } from "./auth";
-import { Route } from "react-router-dom";
-/** <Route path="/add" component={InsertArticle} /> */
+import AddArticle from "./AddArticle";
+
 class Articles extends Component {
   state = {
-    articles: []
+    articles: [],
+    addModalShow: false
   };
   async componentDidMount() {
     auth();
@@ -28,38 +29,47 @@ class Articles extends Component {
   }
 
   render() {
+    let addModalClose = () => this.setState({ addModalShow: false });
     return (
-      <table className="table">
-        <thead>
-          <tr>
-            <th>numero d'article</th>
-            <th>Prix</th>
-            <th>Quantite</th>
-            <th>Taux de TVA</th>
-            <th>
-              <button className="btn btn-primary btn-sm">Add</button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {this.state.articles.map(article => (
+      <div>
+        <table className="table">
+          <thead>
             <tr>
-              <th>{article._id}</th>
-              <th>{article.prix_HT}</th>
-              <th>{article.qts}</th>
-              <th>{article.taux_tva}</th>
+              <th>ID_Article</th>
+              <th>Title</th>
+              <th>Price</th>
+              <th>ID_Depot</th>
               <th>
                 <button
-                  onClick={() => this.handleDelete(article)}
-                  className="btn btn-danger btn-sm"
+                  onClick={() => this.setState({ addModalShow: true })}
+                  className="btn btn-primary btn-sm"
                 >
-                  Delete
+                  Ajoute
                 </button>
               </th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {this.state.articles.map(article => (
+              <tr key={article._id}>
+                <th>{article._id}</th>
+                <th>{article.title}</th>
+                <th>{article.price}</th>
+                <th>{article.depot}</th>
+                <th>
+                  <button
+                    onClick={() => this.handleDelete(article)}
+                    className="btn btn-danger btn-sm"
+                  >
+                    Delete
+                  </button>
+                </th>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <AddArticle show={this.state.addModalShow} onHide={addModalClose} />
+      </div>
     );
   }
 }
